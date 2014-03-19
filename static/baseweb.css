@@ -1,0 +1,86 @@
+/**
+ * Structure
+ */
+html, body {
+    height: 100%;
+}
+
+body{
+	background: #919191
+    url(images/background.jpg)
+}
+
+body {
+    margin: 0;
+    font-family: "proxima-nova", "Helvetica Neue", "HelveticaNeue", helvetica, arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #505050;
+}
+
+.description {
+    margin-left: 15%;
+    margin-right: auto;
+    width: 36%;
+    line-height: 300px;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 21px;
+}
+
+/**
+ * Navigation
+ */
+
+.navigation {
+    width:140px;
+    height:420px;
+    float:left;
+    padding:0 10px 10px 0;}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    color: #505050;
+    text-decoration: none;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+a:hover {
+    color: #f35145;
+    border-color: #c7c7c7;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+#menu ul{
+  list-style: none;
+}
+
+#menu li{
+  display: inline;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 32px;
+}
+
